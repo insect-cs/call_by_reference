@@ -22,6 +22,6 @@ void swap(int *a,int *b){
     int temp;
     temp = *a;
     *a = *b;
-   
+    *b = temp; // if this condition is not mention then the values will not be swaped 
 
 }
